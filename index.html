@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS DOM Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Registration Page</h1>
+
+
+  <button id="themeBtn">Change Theme</button>
+
+  <form id="regForm">
+    <input type="text" id="username" placeholder="Username">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+  </form>
+
+
+  <p id="message"></p>
+
+
+  <h2>Event Bubbling & Capturing Demo</h2>
+  <p>(Check console for logs when you click)</p>
+  <div class="outer" id="outerDiv">
+    Outer Div
+    <div class="inner">
+      <button id="innerBtn" type="button">Inner Button</button>
+    </div>
+  </div>
+
+ 
+  <script src="app.js" defer></script>
+</body>
+</html>

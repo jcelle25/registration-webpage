@@ -1,0 +1,102 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eaf7ea;  
+  color: #1e352f;        
+  text-align: center;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  color: #2d5a4d; 
+}
+
+form {
+  margin: 20px auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #a3c9a8;
+  border-radius: 8px;
+}
+
+input, button {
+  padding: 8px;
+  border: 1px solid #9bbf9e;
+  border-radius: 5px;
+}
+
+button {
+  background: #6da883;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #4f7d61;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.success { color: green; }
+.error { color: red; }
+
+.outer {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #4f7d61;
+  display: inline-block;
+  background: #d8ead9;
+  border-radius: 6px;
+}
+.inner {
+  padding: 10px;
+  background: #bcd5bb;
+  border-radius: 4px;
+}
+
+
+.dark {
+  background: #1b2f25;  
+  color: #ffffff;       
+}
+
+
+.dark h1 {
+  color: #ffffff;
+}
+
+.dark form {
+  background: #294b3a;
+  border: 1px solid #4f7d61;
+}
+
+.dark input, .dark button {
+  border: 1px solid #4f7d61;
+}
+
+.dark button {
+  background: #3d7058;
+}
+
+.dark button:hover {
+  background: #274d3b;
+}
+
+.dark .outer {
+  border-color: #6da883;
+  background: #3a5a4b;
+}
+
+.dark .inner {
+  background: #2d4537;
+}
